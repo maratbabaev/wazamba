@@ -881,6 +881,13 @@ footer .container {
   .footer--mobile div img {
     width: 48px;
   }
+  .header__img img {
+    -o-object-position: 0;
+       object-position: 0;
+  }
+  .header__info {
+    transform: translate(0px, 10px);
+  }
 }
 @media (max-width: 767px) {
   main {
@@ -933,13 +940,6 @@ footer .container {
   header {
     height: auto;
     aspect-ratio: 375/384;
-  }
-  .header__img img {
-    -o-object-position: 0;
-       object-position: 0;
-  }
-  .header__info {
-    transform: translate(0px, 10px);
   }
   .header__info a {
     width: 250px;

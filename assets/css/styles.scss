@@ -928,6 +928,12 @@ footer {
 			}
 		}
 	}
+	.header__img img {
+		object-position: 0;
+	}
+	.header__info {
+		transform: translate(0px, 10px);
+	}
 }
 
 @media (max-width: 767px) {
@@ -982,12 +988,7 @@ footer {
 		height: auto;
 		aspect-ratio: 375/384;
 	}
-	.header__img img {
-		object-position: 0;
-	}
-	.header__info {
-		transform: translate(0px, 10px);
-	}
+
 	.header__info a {
 		width: 250px;
 	}
